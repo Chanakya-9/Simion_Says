@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simon Says Arcade</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕹️</text></svg>">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="retro-header">
+            <h1>SIMON_SAYS</h1>
+            <h3>PRESS START TO PLAY</h3>
+        </header>
+        
+        <div class="score-badge">
+            <h4>Hiscore: 0</h4>
+        </div>
+
+        <main class="container arcade-board">
+            <div class="red arcade-btn"></div>
+            <div class="green arcade-btn"></div>
+            <div class="blue arcade-btn"></div>
+            <div class="yellow arcade-btn"></div>
+        </main>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <button id="restart-btn" class="retro-btn">START GAME</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
