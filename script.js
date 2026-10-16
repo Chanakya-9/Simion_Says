@@ -92,6 +92,7 @@ function checkAns() {
         }
     } else {
         gameOver();
+        console.log("game over");
     }
 }
 
