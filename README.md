@@ -2,6 +2,11 @@
 
 An 80s Retro Synthwave / CRT Arcade edition of the classic Simon Says memory game built with vanilla JavaScript, HTML5, and CSS3.
 
+
+![Simon Says Gameplay Preview](image.png)
+
+🎮 **Play Live Demo:** [https://chanakya-9.github.io/Simion_Says/](https://chanakya-9.github.io/Simion_Says/)
+
 ---
 
 ## 🎯 How to Play
@@ -29,6 +34,11 @@ An 80s Retro Synthwave / CRT Arcade edition of the classic Simon Says memory gam
 - **HTML5** – Semantic structure & arcade board layout
 - **CSS3** – Retro gradients, neon shadows, and CSS Grid
 - **JavaScript (ES6+)** – Game state engine, random sequence generation, and timing control
+
+## 🌐 Live Demo
+
+You can play the live version directly in your browser:  
+👉 **[Launch Simon Says Arcade](https://chanakya-9.github.io/Simion_Says/)**
 
 ---
 
