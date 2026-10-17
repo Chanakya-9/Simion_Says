@@ -34,6 +34,7 @@ function start() {
 function levelUp() {
     let color = colors[Math.floor(Math.random() * 4)];
     game.push(color);
+    console.log(color);
     user = [];
     level++;
 
