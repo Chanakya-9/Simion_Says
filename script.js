@@ -36,7 +36,6 @@ function levelUp() {
     game.push(color);
     user = [];
     level++;
-    console.log(level);
 
     if (level > hiscore) {
         hiscore = level;
