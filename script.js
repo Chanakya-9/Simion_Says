@@ -21,6 +21,7 @@ restartBtn.addEventListener("click", start);
 
 function start() {
     if (!isStart) {
+        console.log("game started");
         isStart = true;
         restartBtn.style.visibility = "hidden";
         level = 0;
